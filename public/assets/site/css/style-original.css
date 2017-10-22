@@ -1,0 +1,457 @@
+    /* Chamando fonte em um pacote de css */
+@font-face{	
+	font-family: 'space_age';
+        src: url("../../fontes/space_age/space_age.ttf");
+} 
+
+div .informatica{
+    margin-left: 16px;
+    margin-right: 0px;
+    color: white;
+    font-size: 8pt;
+    position: absolute;
+    top: 38px;
+}
+
+div .informatica span{
+    -webkit-box-shadow: -13px 13px 25px 2px rgba(0,0,0,0.18);
+    -moz-box-shadow: -13px 13px 25px 2px rgba(0,0,0,0.18);
+    box-shadow: -13px 13px 25px 2px rgba(0,0,0,0.18);
+}
+
+a.a{
+    color: #db0000;
+    margin: 0px -5px 0px 5px;
+    text-decoration: none;
+    text-height: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+a.a:link{
+    text-decoration: none;
+}
+a.ssiz:link{
+    text-decoration: none;
+}
+    
+/*##################################*/
+a.ssiz{                             /**/
+                                    /**/
+    margin: 0px 5px 0px -18px;      /**/
+    color: #4c0088;                  /**/
+    text-align: left;               /**/
+    text-decoration: none;          /**/
+    background-color: white;        /**/
+    border-radius: 5px;             /**/
+    padding-right: 6px;             /**/
+    padding-left: 4px;              /**/
+}                                   /**/
+
+.assiz-logo{
+    position: relative;
+    float: left;
+    width: 180px;
+    height: 45px;
+    margin: 0px ;
+    display: block;
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: 'space_age';
+    font-size: 26pt;
+}
+/* CONFIGURAÇÕES "NOVO" ALUGUE 1 NETO*/
+.a1n-novo{
+    position: absolute;
+    float: left;
+    width: 80px;
+    height: 20px;
+    margin-top: 0px ;
+    margin-left: 7px; 
+    top: 15px;
+    opacity: 1;
+    background-color:  white;
+    border-radius: 5px;
+}
+.a1n-novo h4{
+    font-family: 'space_age';
+    text-align: center; 
+    margin-top: -1px;
+    margin-left: -1px;
+    color: #4c0088;
+    font-size: 16pt;
+    
+}
+.a1n-div1{
+    background: red;
+    text-align: center;
+}
+.radio-button-a1n {
+    padding: 6px 10px 4px 15px;
+    border-radius: 5px;
+    border-color: red;
+    background-color: #eaeaea;
+    text-align: left;
+    color: #545454
+}
+
+/* FIM CONFIGURAÇÕES "NOVO" ALUGUE 1 NETO*/
+
+/* INICIO LOGIN REGISTRE */ 
+.login-assiz{
+    position: absolute;
+    display: block;
+    float: right;
+    margin-right: 0px;
+    right: -200px;
+}
+
+/* FIM LOGIN REGISTRE */ 
+
+/* INICIO LOGIN cadastre-se */ 
+.cadastre-se{
+    margin-top: 80px
+}
+
+/* FIM LOGIN REGISTRE */ 
+
+div .carrousel-esquerda{
+     top: 53px;
+}
+
+div .coluna-meio{
+    
+    top: 52px;
+}
+
+
+
+/* INICIO FOOTER RODAPE */
+footer .rodape{
+    display: block;
+    clear: both;    
+    position: relative;
+    background-color: #090909;
+    opacity: 0.9;
+    margin-top: 500px; 
+    margin-bottom: -10px;
+    padding: 60px;
+}
+
+
+p.rodape{
+    
+    color: white;
+    text-align: center;
+    
+}
+
+/* FIM FOOTER RODAPE */
+
+/* INICIO DAS CONF DO CARROUSEL */
+
+div .carousel{
+    margin: 1px;
+    background-color: #eee;
+}
+
+div .carousel:hover{
+    /*-webkit-transform: scale(1.2);*/
+    /*opacity: 1;*/
+    
+}
+
+.img-zoom{
+  -webkit-transform: scale(0.99);
+  transition: 0.5s;
+  
+}
+
+.img-zoom:hover{
+  -webkit-transform: scale(1.1);
+  
+}
+
+
+.figcaption-carrousel{
+    position: absolute;
+    margin-bottom: -5px;
+    bottom:  0px;
+    text-align: center;
+    width: 100%;
+    /*background-color: rgba(0,0,0,.3);*/
+    color: #2e3436;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.figcaption-carrousel:hover{
+    opacity: 1;
+}
+
+.curta-nos{
+    top: 30px;
+}
+
+
+.trez-colunas-texto{
+    margin-top: 200px;
+}
+
+.trez-colunas-texto div{
+    background-color: white;
+    transition: 0.6s;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.trez-colunas-texto div:hover{
+    background-color: #717171;
+    color: white;
+    transition: 0.6s;
+    border-radius: 40px;
+}
+
+
+
+.trez-colunas-texto a{
+    margin-left: 20px;
+}
+
+/*.panel-body{
+    position: relative;
+    /*background-color: rgba(0,0,0,1);
+    opacity: 0.2;*/
+    /*height: 200px;
+    background: url('../imgs/assiz-logo-transp200x48px') no-repeat  center;
+    
+}*/
+
+
+
+.fb-like{
+    top: 0px;
+    margin-left: 20px;
+    right: 6px;
+    position: absolute;
+    width: 100px;
+    transition: 0.5s;
+}
+
+.fb-like:hover{
+    transition: 0.5s;
+}
+
+
+/*######## INICIO DAS CONFIGURAÇÕES DA PÁG SOBRE #########*/
+
+div .sobre{
+    position: absolute;
+}
+
+div .sobre-foto{
+    position: relative;
+    top: 60px;
+    margin-bottom: 100px;
+}
+
+/* Formatação de imagens com legendas */
+
+figure.foto-legenda {
+	position: relative;
+	border: 1px solid white;
+	box-shadow: 4px 4px 30px black; /*Faz sombras, primeiros prâmetros expessura, útimo é a cor*/
+         transition: 2s;
+}
+figure.foto-legenda  img{
+	width: 100%;
+	height: auto;
+         transition: 2s;
+}
+
+figure.foto-legenda  h3{
+        padding-top: 0px;
+         transition: 2s;
+}
+
+figcaption  h2{
+        align-content: center;
+        padding: -4%;
+        opacity: 0;
+        text-align: center;
+        font-size: 22pt;
+        transition: 2.8s; 
+}
+
+figcaption  h2:hover{
+        align-content: center;
+        opacity: 1;
+        text-align: center;
+        font-size: 22pt;
+        transition: 0.7s; 
+}
+
+figure.foto-legenda  figcaption{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.2);
+	color: white;
+	width: 100%;
+	/*height: 100%;*/
+	padding-right: 5px;
+	padding-left: 5px;
+	/*box-sizing: border-box;*/
+	transition: opacity 2s; /* "1seg" é o tempo que ficará opaco*/
+         transition: 2s;
+        
+}
+/*O efeito "hover" faz com que a legenda apareça quando passa o mouse perto*/
+figure.foto-legenda:hover figcaption{
+	opacity: 1;
+        transition: 2s;
+}
+
+.coluna-mapa{
+      top: -16px;    
+}
+
+iframe.iframe-mapa{
+      position: relative;
+      clear: both;
+      width: 100%;
+      height: 100%;
+      background-color: white;      
+}
+
+div .sobre-empresa{
+    display: block;
+    position: relative;
+    top: 30px;
+    
+}
+
+div .sobre-empresa p{
+    text-align: justify;
+}
+
+div .sobre-foto-marciel{
+    display: block;
+    float: right;
+    top: 50px;
+}
+
+
+/* COMEÇO DAS CONFIGURAÇÕES DO FORMULÁRIO DE CONTATO */
+
+.contato{
+    
+}
+
+div .form-contato{
+    display: block;
+    position: relative;
+    top: 70px;
+    margin-bottom: 130px;
+    margin-top: 30px;
+}
+
+input#news-promo{
+    width: 40px;
+}
+
+input#mensagem{
+    height: 100px;
+}
+
+.botao-enviar{
+   margin-top: 40px;
+   width: 200px;
+   height: 45px;
+    background-color: red;
+}
+
+/*######## COMEÇO DAS CONFIGURAÇÕES DA PÁG SERVIÇOS #########*/
+
+div .servicos{
+    margin-top: 40px;
+    text-align: justify;
+}
+
+/* Formatação de imagens com legendas Serviços */
+
+figure.foto-legenda-servicos {
+	position: relative;
+	border: 10px solid white;
+        border-radius: 5px;
+	box-shadow: 4px 4px 30px rgba(0,0,0,.2); /*Faz sombras, primeiros prâmetros expessura, útimo é a cor*/
+}
+figure.foto-legenda-servicos  img{
+	width: 100%;
+	height: auto;
+}
+
+
+figure.foto-legenda-servicos  h3{
+        margin-top: 49%;
+        margin-left: 1%;
+        opacity: .7;
+        transition: 1s;
+}
+
+figure.foto-legenda-servicos:hover  h3{
+        margin-left: 6%;
+        opacity: 1;
+}
+
+figure.foto-legenda-servicos  h4{
+        margin-top: 45%;
+        text-align:  right;
+        margin-right: 1%;
+        opacity: .7;
+        transition: 1s;
+}
+
+figure.foto-legenda-servicos:hover  h4{
+        margin-right: 8%;
+        opacity: 1;
+}
+
+figure.foto-legenda-servicos  figcaption{
+	opacity: 1;
+	position: absolute;
+	bottom: 0px;
+        margin-top: 550px;
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding-right: 5px;
+	padding-left: 5px;
+	transition: .8s; /* "1seg" é o tempo que ficará opaco*/
+}
+/*O efeito "hover" faz com que a legenda apareça quando passa o mouse perto*/
+figure.foto-legenda-servicos:hover figcaption{
+	background-color: rgba(0,0,0,.4);
+}
+
+.caption h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.caption h4{
+    text-align: justify;
+    color: #717171;
+    opacity: 1;
+}
+
+.caption h4:hover{
+    text-align: justify;
+    color: #717171;
+    opacity: 1;
+}
+
+
+/*######## FIM DAS CONFIGURAÇÕES DA PÁG SERVIÇOS #########*/
+

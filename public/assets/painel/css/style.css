@@ -1,0 +1,33 @@
+.title-pg{
+	font-size: 30px;
+	margin-left: 20px; 
+    text-shadow: 0 0 black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.editar{background: #444198;}
+
+.apagar{background: #dc0e0e;}
+
+.acoes{
+	padding: 4px;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 1em;
+	margin: 0px 3px;
+}
+
+.acoes:hover{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.btn-add{
+	margin-top: 5px;
+	margin-left: 10px;
+	background: red;
+}
+
+.all{
+	margin: 30px;
+}

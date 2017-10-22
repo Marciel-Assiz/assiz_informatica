@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/usuario/site3/app/Models/Alugue1Neto/Alugue1NetoPedidos.php</file>
+            <file>file:/home/usuario/site3/resources/views/pedidos_show.blade.php</file>
+            <file>file:/home/usuario/site3/resources/views/pedido_details.blade.php</file>
+            <file>file:/home/usuario/site3/resources/views/formcontato.blade.php</file>
+            <file>file:/home/usuario/site3/resources/views/alugue1neto.blade.php</file>
+            <file>file:/home/usuario/site3/app/Mail/enviarEmail.php</file>
+            <file>file:/home/usuario/site3/resources/views/templates/template.blade.php</file>
+            <file>file:/home/usuario/site3/.env</file>
+            <file>file:/home/usuario/site3/app/Http/Controllers/Site/Alugue1NetoController.php</file>
+            <file>file:/home/usuario/site3/resources/views/emailcontato.blade.php</file>
+            <file>file:/home/usuario/site3/routes/web.php</file>
+        </group>
+    </open-files>
+</project-private>

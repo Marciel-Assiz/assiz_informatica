@@ -1,0 +1,33 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW HOTLINKID:PyruWyNugu
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?assizinformatica.com.br/.*$      [NC]
+RewriteRule .*\.(txt|html|htm|php|swf)$ http://assizinformatica.com.br [R,NC]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE PyruWyNugu:HOTLINKID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW HOTLINKID:RepyJuLadu
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?assizinformatica.com.br/.*$      [NC]
+RewriteRule .*\.(.*)$ http://assizinformatica.com.br [R,NC]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE RepyJuLadu:HOTLINKID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW HOTLINKID:SyNuZePyLe
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?assizinformatica.com.br/.*$      [NC]
+RewriteRule .*\.(.*)$ http://assizinformatica.com.br [R,NC]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE SyNuZePyLe:HOTLINKID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW HOTLINKID:aNuSydybuT
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?assizinformatica.com.br/.*$      [NC]
+RewriteRule .*\.(.*)$ http://assizinformatica.com.br [R,NC]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE aNuSydybuT:HOTLINKID
+
